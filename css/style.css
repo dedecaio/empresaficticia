@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+input,textarea,select:focus{
+    outline: 0 !important;
+}
+
+/*BOOTSRAP CLASSES*/
+    .navbar-brand{
+        font-size: 23px;
+    }
+
+/**/
+.box{
+    position: relative;
+    top: 30px;
+}
+section.banner{
+    padding:250px 0;
+    position: relative;
+    min-height: 700px;
+    background-image: url('../imagens/bg.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+section.banner > .container{
+    position: relative;
+    z-index: 2;
+}
+.overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(70, 70, 70, 0.3)
+}
+.chamada-banner h2{
+    color: #26a599;
+    font-size: 50px;
+
+}
+.chamada-banner p{
+    color: white;
+    font-size: 21px;
+}
+.chamada-banner a{
+    margin-top: 10px;
+    display: inline-block;
+    background: #26a599;
+    padding: 12px 26px;
+    color: white;
+    font-size:17px;
+}
+section.cadastro-lead{
+    padding: 20px 0;
+    background-color: #26a599;
+}
+section.cadastro-lead h2{
+    color: white;
+    font-size: 24px;
+    margin: 7px;
+}
+section.cadastro-lead form{
+    position: relative;
+    
+}
+section.cadastro-lead input[type=email]{
+    width: 85%;
+    height: 40px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+
+
+}
+section.cadastro-lead input[type=submit]{
+    width: 15%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+section.depoimento{
+    padding: 40px 0;
+}
+section.depoimento h2{
+    color: #4b4b4b;
+
+}
+section.depoimento blockquote{
+    color: #4b4b4b;
+    font-size:16px;
+}
+section.diferenciais{
+    padding: 40px 0;
+    background-color: #e5e5e5;
+}
+section.diferenciais > h2{
+    color: #4b4b4b;
+}
+section.diferenciais h3{
+    font-size: 40px;
+}
+.dif-container{
+    margin-top: 20px;
+}
+.dif-container h3{
+    color: #26a599;
+}
+.dif-container h2{
+    font-size:26px;
+}
+.dif-container p{
+    color: #4b4b4b;
+    font-size:14px;
+}
+section.equipe h2{
+    margin: 0;
+    background-color: #26a599;
+    color: white;
+    text-align: center;
+    padding: 15px 2%;
+
+}
+.equipe-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.equipe-single{
+    margin-bottom: 15px;
+    padding: 20px 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow:8px 7px 5px -3px rgba(20, 20, 20, 0.6) ;
+    min-height: 210px;
+}
+
+.user-picture{
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+.user-picture-child{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+	background-color:#ccc;
+}
+
+.user-picture-child > span{
+	color: rgb(110,110,110);
+	font-size: 30px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+section.final-site{
+    padding: 30px 0;
+    background-color: #e5e5e5;
+    color: #4b4b4b;
+
+}
+section.final-site form{
+    margin-bottom: 15px;
+}
+section.final-site textarea{
+    height: 120px;
+    resize: none;
+}
+section.final-site h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size:26px;
+}
+
+footer{
+    background-color: #26a599;
+    padding: 20px 0;
+}
+footer p{
+    margin: 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .user-picture{
+        width: 40%;
+        padding-top: 40%;
+    }
+}
+@media screen and (max-width: 580px){
+    .chamada-banner h2{
+        color: #26a599;
+        font-size: 40px;
+    
+    }
+    section.cadastro-lead input[type=submit]{
+        width: 200px;
+        margin-top: 8px;
+        display: inline-block;
+    }
+}
+
+
+
+
